@@ -1,0 +1,2 @@
+awk: cmd. line:1: BEGIN{FS="|"}{if ($3==mahmoud@gmail.com) print $0}
+awk: cmd. line:1:                               ^ syntax error

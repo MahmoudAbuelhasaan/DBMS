@@ -1,0 +1,4 @@
+Field|Type|key
+user_id|int|PK
+name|str|
+email|str|

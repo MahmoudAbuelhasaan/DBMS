@@ -1,0 +1,5 @@
+mkdir: cannot create directory ‘DBMS’: File exists
+mkdir: cannot create directory ‘DBMS’: File exists
+mkdir: cannot create directory ‘DBMS’: File exists
+project: line 31: cd: ./DBMS/ITI: No such file or directory
+mkdir: cannot create directory ‘DBMS’: File exists
