@@ -4,14 +4,14 @@ clear
 echo "Welcome To DBMS"
 
 function mainMenu {
-  echo -e "\n+---------Main Menu-------------+"
-  echo "| 1. Select DB                  |"
-  echo "| 2. Create DB                  |"
-  echo "| 3. Rename DB                  |"
-  echo "| 4. Drop DB                    |"
-  echo "| 5. Show DBs                   |"
-  echo "| 6. Exit                       |"
-  echo "+-------------------------------+"
+  echo -e "---------Main Menu-------------+"
+  echo " 1. Select DB"
+  echo " 2. Create DB"
+  echo " 3. Rename DB"
+  echo " 4. Drop DB"
+  echo " 5. Show DBs"
+  echo " 6. Exit"
+  echo "----------------------------------------------------------------------"
   echo -e "Enter Choice: \c"
   read ch
   case $ch in
@@ -82,7 +82,7 @@ function dropDB {
 # Mahmoud Ali Ahmed 
 # selecting table menu when conect to data base 
 function tablesMenu {
-  echo -e "\n+--------Tables Menu------------+"
+  echo -e "--------Tables Menu------------+"
   echo " 1. Show Existing Tables"
   echo " 2. Create New Table"
   echo " 3. Insert Into Table"
@@ -329,15 +329,15 @@ function deleteFromTable {
 }
 
 function selectMenu {
-  echo -e "\n\n+---------------Select Menu--------------------+"
-  echo "| 1. Select All Columns of a Table              |"
-  echo "| 2. Select Specific Column from a Table        |"
-  echo "| 3. Select From Table under condition          |"
-  echo "| 4. Aggregate Function for a Specific Column   |"
-  echo "| 5. Back To Tables Menu                        |"
-  echo "| 6. Back To Main Menu                          |"
-  echo "| 7. Exit                                       |"
-  echo "+----------------------------------------------+"
+  echo -e "---------------Select Menu--------------------"
+  echo " 1. Select All Columns of a Table "
+  echo " 2. Select Specific Column from a Table "
+  echo " 3. Select From Table under condition"
+  echo " 4. Aggregate Function for a Specific Column"
+  echo " 5. Back To Tables Menu"
+  echo " 6. Back To Main Menu"
+  echo " 7. Exit"
+  echo "----------------------------------------------------------------------"
   echo -e "Enter Choice: \c"
   read ch
   case $ch in
@@ -379,6 +379,7 @@ function selectCon {
   echo "| 3. Back To Selection Menu"
   echo "| 4. Back To Main Menu "
   echo "| 5. Exit"
+  echo "----------------------------------------------------------------------"
   echo -e "Enter Choice: \c"
   read ch
   case $ch in
